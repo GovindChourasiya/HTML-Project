@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Complaint page</title>
+    <style>
+        body{
+            background-color: #c2c2d6;
+        }
+        .container{
+            background-color:#ebc6d9 ;
+            width: 780px;
+            height: 600px;
+            padding: 20px;
+            margin: 50px auto 0;
+            border-top: 5px solid tomato;
+            box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+            padding-left: 35px;
+        }
+
+     .btn{
+         background-color: rgba(44, 114, 227, 0.632);
+         width: 80px;
+         margin-right:25px;
+         height: 30px;
+         border: none;
+         border-radius: 3px;
+         font-size:medium;
+    }
+    .btn:hover{
+        background-color:#001133;
+        color:white;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1>
+        <center><u>COMPLAINT PAGE</u></center>
+    </h1>
+    <div class="complaint">
+        
+        <form onsubmit="return confirm('Do you really want to submit the form?');">
+            <p>1, First Name: <input type="text" required autofocus="autofocus">
+                Last Name:<input type="text"> </p>
+            <p>2, Gender : <input type="radio" name="rbGender">male
+                <input type="radio" name="rbGender">Female
+            </p>
+            <p>3,Age: <input type="number" required></p>
+            <p>4,State:<input type="text" required>
+                District:<input type="text" required>
+                City:<input type="text" required></p>
+            <p>5,Pincode:<input type="numbers" maxlength="6" required></p>
+            <p>6,Profession:<input type="text" required></p>
+            <p>7,E-mail : <input type="email" required></p>
+            <p>8,Type of Complaint:
+                <select>
+                    <option value="Select">Select</option>
+                    <option value="1">Police</option>
+                    <option value="2">Railways</option>
+                    <option value="3">Hospitals</option>
+                    <option value="4">Government Offices</option>
+                </select>
+            </p>
+            <p>
+                9,Brief description about the problem:<br><br>
+                <textarea rows="6" cols="100"></textarea>
+            </p>
+
+            <p>10, Upload image/video of problem:<input type="file"></p>
+            
+                <center><input class="btn" type="submit" value="Submit">
+            <input class="btn" type="reset" ></center>
+        
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

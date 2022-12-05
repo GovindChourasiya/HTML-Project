@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+
+}
+
+.main {
+    width: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%)s;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.navbar {
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 0px;
+    background-color: aquamarine;
+}
+
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 22px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 0px;
+    position: relative;
+}
+
+ul li a:hover {
+    color: #cc99ff;
+}
+
+
+.content {
+    color: BLACK;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-top: 40px;
+    align-items: left;
+    padding-left: 0px;
+    background-color: antiquewhite;
+}
+
+.content img {
+    height: 380px;
+    width: 420px;
+}
+
+.content .par {
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content .cn {
+    background: #32206b;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-family: Arial;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: rgb(87, 142, 189);
+}
+
+
+.about {
+    font-size: 25px;
+    background-color: lightblue;
+    height:300px;
+    padding-top: 45px;
+}
+
+.service {
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    background-image: url("train.png") ;
+    width:100%;
+    height:1000px;
+    
+    
+}
+
+.service .heading {
+    font-size: 52px;
+
+}
+
+.raila {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.railways{
+    background-color: aliceblue;
+    height:200px;
+    padding-top: 15px;
+}
+.raila img {
+    width: 350px;
+    height: 270px;
+}
+
+.poli {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.police{
+    background-color: aliceblue;
+    height:200px;
+    padding-top:20px;
+    background-image: url("police.png");
+    width:100%;
+    height:1000px;
+
+}
+
+.hosp {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.hospitals{
+padding-top: 40px;
+background-color: aliceblue;
+height:200px;
+}
+
+
+
+.hosp img {
+    width: 350px;
+    height: 270px;
+}
+
+.gover {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.government{
+    background-color: aliceblue;
+    height:190px;
+    padding-top: 50px;
+}
+.gover img {
+    width: 350px;
+    height: 270px;
+}
+
+
+.total {
+    height: 500px;
+    background-color: rgb(156, 151, 151);
+    font-size: 32px;
+}
+
+.total h2 {
+    text-align: center;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smedia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.smedia a {
+    font-size: xx-large;
+    padding: 10px;
+    color: black;
+}
+
+.facebook:hover {
+    color: rgb(32, 150, 246);
+}
+
+.insta:hover {
+    color: rgb(224, 59, 224);
+}
+
+.twitter:hover {
+    color: rgba(0, 157, 255, 0.614)
+}
+
+
+
+    #services{
+        font-family: sans-serif;
+    }
+
+    #service1{
+        background-image: url("train.png");
+        width:100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #railways{
+        background-color: rgba(0,0,0,0.4);
+        height:620px;
+        padding-top:80px;
+        font-family: sans-serif;
+        color:rgb(5, 24, 46);
+        width:100%;
+        font-size:30px;
+        text-align: right;
+        
+        
+    }
+
+
+    #service2{
+        background-image: url("police.png");
+        width:100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #police{
+        background-color: rgba(0,0,0,0.4);
+        height:620px;
+        padding-top:80px;
+        font-family: sans-serif;
+        color: rgb(5, 24, 46);
+        width:100%;
+        font-size:30px;
+        text-align: right;
+        
+        
+    }
+
+
+    #service3{
+        background-image: url("hospital.png");
+        width:100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #hospital{
+        background-color: rgba(0,0,0,0.4);
+        height:620px;
+        padding-top:80px;
+        font-family: sans-serif;
+        color: rgb(5, 24, 46);
+        width:100%;
+        font-size:30px;
+        text-align:left;
+        
+        
+    }
+
+
+
+    #service4{
+        background-image: url("government bck.png");
+        width:100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #government{
+        background-color: rgba(0,0,0,0.4);
+        height:620px;
+        padding-top:80px;
+        font-family: sans-serif;
+        color: rgb(5, 24, 46);
+        width:100%;
+        font-size:30px;
+        text-align: left;
+        
+        
+    }
+
+    #contact{
+        background-color: rgba(174, 163, 153, 0.881);
+        color: white;
+        font-size: 25px;
+        width: 100%;
+        height:340px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        padding-top:60px;
+    }
+
+
+    #about{
+        background-color: tomato;
+        color: white;
+        font-size: 25px;
+        width: 100%;
+        height:250px;
+        font-family: sans-serif;
+        text-align: center;
+        padding-top:60px;
+    }
+
+
+#follow_us{
+    background-color: rgb(110, 74, 141);
+        color: white;
+        font-size: 25px;
+        width: 100%;
+        height:170px;
+        font-family: sans-serif;
+        text-align: center;
+        padding-top:20px;
+}
+
+
